@@ -16,22 +16,26 @@
     <article class="blog-card">
       <header class="blog-card-header">
         <img
-          class="blog-card-illustration"
+          class="blog-card-img"
           src="assets/images/illustration-article.svg"
-          alt="Illustration"
+          alt="Illustration-article"
         />
 
-        <div>
+        <div class="blog-card-tag">
           <span class="tag">Learning</span>
         </div>
 
-        <p class="blog-card-date">
-          Published <time datetime="2023-12-21">21 Dec 2023</time>
-        </p>
+        <div>
+          <time class="blog-card-time" datetime="2023-12-21"
+            >Published 21 Dec 2023</time
+          >
+        </div>
       </header>
 
       <div class="blog-card-body">
-        <h1 class="blog-card-title">HTML & CSS foundations</h1>
+        <h1 class="blog-card-title">
+          <a class="blog-card-link" href="#">HTML & CSS foundations</a>
+        </h1>
 
         <p class="blog-card-description">
           These languages are the backbone of every website, defining structure,
@@ -43,8 +47,9 @@
         <img
           class="blog-card-avatar"
           src="assets/images/image-avatar.webp"
-          alt="Avatar of Greg Hooper"
+          alt="Greg Hooper profile image"
         />
+
         <strong class="blog-card-author">Greg Hooper</strong>
       </footer>
     </article>
